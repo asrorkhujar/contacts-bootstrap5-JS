@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Contacst</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="h-100 d-flex flex-column bg-warning">
+
+  <div class="container">
+    <div class="row">
+      <div class="bg-dark col-12 mb-5 rounded-bottom">
+        <h1 class="text-white text-center p-3 display-3">Contact book</h1>
+      </div>
+
+      <form class="contact-form-add col-16 col-md-6 mb-5 mb-md-0" action="https://echo.htmlacademy.ru" method="POST">
+        <h2 class="h1 fw-bold mb-4 text-center">Add new contact</h2>
+
+        <div class="d-flex flex-column">
+          <input class="input-name mb-3 border-1 border-light rounded bg-white p-2" type="text" name="name" placeholder="Name" required>
+          <input class="input-relation mb-3 border-1 border-light rounded bg-white p-2" type="text" name="relationship" placeholder="Relationship" required>
+          <div class="input-group d-flex mb-4">
+            <div class="input-group-lg">
+              <span class="input-group-text">+998</span>
+            </div>
+
+            <input class="input-phone border-1 border-light rounded bg-white p-2 flex-grow-1" type="text" name="phone" placeholder="Phone" minlength="3" required>
+          </div>
+
+          <button class="button-submit btn btn-dark fw-bold" type="submit">Add contact</button>
+          <span class="info-desk"></span>
+        </div>
+      </form>
+
+      <div class="col-12 col-md-6">
+        <h2 class="h1 text-center mb-4 fw-bold">Contacts</h2>
+        <ul class="contacts-list w-100 list-unstyled d-flex flex-column align-items-center">
+          <li class="contacts-item w-100 bg-white flex-grow-1 p-3 rounded border mb-4">
+            <h3 class="contact-name">Axrolxo'ja</h3>
+            <p class="contact-relation">Ukam</p>
+
+            <a class="contact-number text-decoration-none" href="tel:974250775">+998 97 749-41-23</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
