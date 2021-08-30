@@ -14,10 +14,6 @@ if(form){
   form.addEventListener('submit', function(evt){
     evt.preventDefault();
 
-
-
-
-
     num++;
     var contactItem = document.createElement('li');
     var contactName = document.createElement('h3');
