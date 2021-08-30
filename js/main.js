@@ -47,7 +47,7 @@ if(form){
     contactItem.appendChild(contactRelation);
     contactItem.appendChild(contactNumber);
 
-    contactItem.classList.add('bg-white', 'w-100', 'p-3', 'rounded', 'border', 'mb-4');
+    contactItem.classList.add('bg-light', 'w-100', 'p-3', 'rounded', 'border', 'mb-4');
     contactNumber.classList.add('text-decoration-none');
     contactNumber.href="tel:" + inputPhone.value
 
